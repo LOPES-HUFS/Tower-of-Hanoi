@@ -1,4 +1,4 @@
-# Tower-of-Hanoi
+# Tower of Hanoi
 
 Tower of Hanoi with Rust
 
@@ -14,7 +14,7 @@ Tower-of-Hanoi
 Cargo.toml LICENSE    README.md  src
 ```
 
-여기서 다음과 같이 `cargo` 를 이용합니다.
+여기서 다음과 같이 `cargo init` 를 이용하여 프로젝트를 시작합니다.
 
 ```bash
 cargo init Tower-of-Hanoi
