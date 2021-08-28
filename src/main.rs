@@ -13,8 +13,7 @@ fn main() {
         );
         process::exit(1);
     });
-    println!("탑 갯수: {}", config.num_of_tower);
-    println!("대상 파일 이름: {}", config.filename);
+    println!("탑 높이: {}", config.num_of_tower);
 
     if let Err(e) = tower::run(config) {
         println!("어플리케이션 에러: {}", e);
